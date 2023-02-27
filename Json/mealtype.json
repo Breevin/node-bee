@@ -1,4 +1,4 @@
-[
+{"mealtype":[
     {
         "name": "Breakfast",
         "content": "Start your day with exclusive breakfast options",
@@ -36,3 +36,4 @@
         "meal_type": 6
     }
 ]
+}
