@@ -1,6 +1,6 @@
 const express= require("express");
 const app = express();
-const port = 8900;
+const port = 9900;
 
 const restaurantsData= require('./Json/restaurant.json');
 const locationsData= require('./Json/location.json');
@@ -21,8 +21,20 @@ app.get("/mealtype",(req, res) =>{
     res.send(mealtype);
 });
 
+app.get("/getRestaurants",(req, res) =>{
+    let restaurantDeails ;
+    for (let a of restaurantsData.restaurants) {
+        if (a.name === req.query.restaurants) {
+            restaurantDeails=a;
+        }
+    }
+    res.send(restaurantDeails);
+});
+
 app.listen(port,() => {
     console.log('App is listening on port ',port);
 }
 );
+
+
 

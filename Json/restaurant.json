@@ -27,7 +27,7 @@
             "name": "Fast Food"
         }
     ],
-    "image": "Assets/breakfast.jpg",
+    "image": "./Assets/domino.jpg",
     "mealtype_id": 1
 },
 {
@@ -57,7 +57,7 @@
             "name": "Fast Food"
         }
     ],
-    "image": "Assets/breakfast.jpg",
+    "image": "./Assets/kfc.jpg",
     "mealtype_id": 1
 },
 {
@@ -87,7 +87,7 @@
             "name": "Fast Food"
         }
     ],
-    "image": "Assets/breakfast.jpg",
+    "image": "./Assets/king.jpg",
     "mealtype_id": 1
 },
 {
@@ -117,7 +117,7 @@
             "name": "Fast Food"
         }
     ],
-    "image": "Assets/breakfast.jpg",
+    "image": "./Assets/baba.jpg",
     "mealtype_id": 2
 }
 ]
